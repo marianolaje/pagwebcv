@@ -1,0 +1,2575 @@
+
+/*--------------CONFIG BASICA PANTALLA--------------*/
+/*--------------CONFIG BASICA PANTALLA--------------*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+body{
+  height: 100%;
+
+  /*overflow: hidden;*/
+  width: 11200px;
+  height: 950px;
+
+}
+
+.hojas{
+  width: 1500px;/*1900*/
+  height: 650px;/*950*/
+  margin-top: 150px;
+  margin-left: 180px;
+  margin-right: 180px;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*--------------1ra HOJA--------------*/
+/*--------------1ra HOJA--------------*/
+/*--------------1ra HOJA--------------*/
+/*--------------1ra HOJA--------------*/
+#fotoYo{
+  opacity: 1.0;
+  transition: opacity 1s
+}
+
+#fotoYo img{
+  border-radius: 100%;
+}
+.Titulo{
+  text-align: center;
+}
+
+#nombreYApellido h2{
+  text-align: center;
+}
+#textoPresentacion{
+  text-align: center;
+}
+
+#img1:hover{
+  display: block;
+}
+
+
+
+/*-----------------2DA HOJA----------------*/
+/*-----------------2DA HOJA----------------*/
+/*-----------------2DA HOJA----------------*/
+/*-----------------2DA HOJA----------------*/
+#estudiosIzq{
+  float: left;
+}
+
+#estudiosDer{
+  float: right;
+}
+#imgEstudios{
+  visibility: hidden;
+  opacity: 0.0;
+  transition: opacity 1s
+}
+#imgEstudios img{
+  width: auto;
+}
+#imgEstudioFormal1 {
+  float: left;
+}
+#imgEstudioFormal2 {
+  float: right;
+}
+#imgEstudiosInformales{
+  visibility: hidden;
+  opacity: 0.0;
+  transition: opacity 1s
+}
+
+#issd, #zorrilla, #nextu, #oracle, #udemy, #cilsa, #educacionit, #utnba{
+  visibility: hidden;
+}
+
+#ayudaTexto{
+  text-align: center;
+  visibility: visible;
+}
+
+
+
+/*-----------------3RA HOJA----------------*/
+/*-----------------3RA HOJA----------------*/
+/*-----------------3RA HOJA----------------*/
+/*-----------------3RA HOJA----------------*/
+
+.imgTecno img{
+  float: left;
+}
+
+.imgTecno img {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+ }
+
+ .imgTecno:hover img{
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+ }
+
+ #filaGris img{
+   height: auto;
+   float: left;
+   filter: grayscale(100%);
+ }
+
+ .textTecno{
+   text-align: center;
+ }
+
+ #visible1, #visible2, #visible3, #visible4, #visible5, #visible6{
+   visibility:hidden;
+   opacity: 0.0;
+   transition: opacity 1s;
+ }
+
+
+
+ /*-----------------4TA HOJA----------------*/
+ /*-----------------4TA HOJA----------------*/
+ /*-----------------4TA HOJA----------------*/
+ /*-----------------4TA HOJA----------------*/
+
+ #filaImgEvo img{
+   width: auto;
+ }
+ #imgEvo1, #imgEvo2{
+   transition: left 1s;
+ }
+
+ #imgEvo3{
+   transition: left 1.2s;
+ }
+ #imgEvo4{
+   transition: left 1.5s;
+ }
+ #EvoTexto1, #EvoTexto2, #EvoTexto3, #EvoTexto4{
+   visibility: hidden;
+   opacity: 0.0;
+   transition: opacity 0.5s
+ }
+
+ .left{
+   float: left;
+ }
+ .left a{
+   text-decoration: none;
+   color: black;
+ }
+ .middle{
+   float: left;
+ }
+ .right{
+   float: left;
+
+ }
+
+
+ /*-----------------5TA HOJA----------------*/
+ /*-----------------5TA HOJA----------------*/
+ /*-----------------5TA HOJA----------------*/
+ /*-----------------5TA HOJA----------------*/
+
+
+
+ /*--------------COSAS FIJAS----------------*/
+ /*--------------COSAS FIJAS----------------*/
+/*--------------COSAS FIJAS----------------*/
+
+/*IMAGENES PUNTOS FLOTANTES*/
+#puntosFlotantes{
+  background-color: transparent;
+  z-index: 999;
+}
+
+#puntosFlotantes img{
+  width: 16px;
+  height: 16px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+img.vert-move1 {
+    -webkit-animation: mover1 1s infinite  alternate;
+    animation: mover1 1s infinite  alternate;
+}
+@keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+img.vert-move2 {
+    -webkit-animation: mover2 1.5s infinite  alternate;
+    animation: mover2 1.5s infinite  alternate;
+}
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+img.vert-move3 {
+    -webkit-animation: mover3 2s infinite  alternate;
+    animation: mover3 2s infinite  alternate;
+}
+@keyframes mover3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+img.vert-move1a {
+    -webkit-animation: mover1a 1.7s infinite  alternate;
+    animation: mover1a 1.7s infinite  alternate;
+}
+@keyframes mover1a {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+img.vert-move2a {
+    -webkit-animation: mover2a 1.3s infinite  alternate;
+    animation: mover2a 1.3s infinite  alternate;
+}
+@keyframes mover2a {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+img.vert-move3a {
+    -webkit-animation: mover3a 0.8s infinite  alternate;
+    animation: mover3a 0.8s infinite  alternate;
+}
+@keyframes mover3a {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/*------FLECHAS---------*/
+.flechasFlotantes{
+  z-index: 999;
+  background-color: transparent;
+  cursor: pointer;
+  }
+
+.flechasFlotantes img{
+  opacity: 0.6;
+}
+
+#inglesEspaniol{
+  cursor: default;
+}
+#inglesEspaniol ul li{
+  display: inline;
+}
+#idiomaIngles{
+  color: lightgray;
+  cursor: pointer;
+}
+#idiomaEspaniol{
+  color: black;
+  cursor: default;
+}
+#barra{
+  color: lightgray;
+  cursor: default;
+}
+
+
+/*-----SMALLEST NOTEBOOOK SIZE-----*//*-----SMALLEST NOTEBOOOK SIZE-----*/
+/*-----SMALLEST NOTEBOOOK SIZE-----*//*-----SMALLEST NOTEBOOOK SIZE-----*/
+@media(min-width:900px) and (max-width:1025px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: -40px;
+    margin-right: 7px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 190px;
+    top: 200px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 530px;
+    left: 190px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1280px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}
+
+
+/*-----SMALL NOTEBOOOK SIZE-----*//*-----SMALL NOTEBOOOK SIZE-----*/
+/*-----SMALL NOTEBOOOK SIZE-----*//*-----SMALL NOTEBOOOK SIZE-----*/
+@media(min-width:1026px) and (max-width:1299px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;/*1366*/
+    height: 500px;/*768*/
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 150px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 590px;
+    left: 340px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1180px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}
+
+
+
+
+/*-----NOTEBOOOK SIZE-----*//*-----NOTEBOOOK SIZE-----*/
+/*-----NOTEBOOOK SIZE-----*//*-----NOTEBOOOK SIZE-----*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+/*-----TERMINADO-----*//*-----TERMINADO-----*/
+@media(min-width:1300px) and (max-width:1370px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;/*1366*/
+    height: 500px;/*768*/
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 150px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 590px;
+    left: 340px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1280px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}
+
+
+
+/*-----SMALL DESKTOP SIZE-----*//*-----SMALL DESKTOP SIZE-----*/
+/*-----SMALL DESKTOP SIZE-----*//*-----SMALL DESKTOP SIZE-----*/
+@media(min-width:1371px) and (max-width:1599px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;/*1366*/
+    height: 500px;/*768*/
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 150px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 590px;
+    left: 340px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1280px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}
+
+
+
+/*-----DESKTOP SIZE-----*//*-----DESKTOP SIZE-----*/
+/*-----DESKTOP SIZE-----*//*-----DESKTOP SIZE-----*/
+@media(min-width:1600px) and (max-width:1899px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;/*1366*/
+    height: 500px;/*768*/
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 150px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 590px;
+    left: 340px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1280px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}
+
+
+
+/*-----BIG DESKTOP SIZE-----*//*-----BIG DESKTOP SIZE-----*/
+/*-----BIG DESKTOP SIZE-----*//*-----BIG DESKTOP SIZE-----*/
+@media(min-width:1900px) and (max-width:8400px){
+  /*-------------- --------------*/
+
+  /*--------------CONFIG BASICA PANTALLA--------------*/
+  body{
+    overflow: hidden;
+    width: 8290px;
+    height: 620px;
+  }
+  .hojas{
+    width: 1100px;/*1366*/
+    height: 500px;/*768*/
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 150px;
+    float: left;
+  }
+
+
+
+
+
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+  /*--------------1ra HOJA--------------*/
+
+
+  #fotoYo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+  }
+
+  #fotoYo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .Titulo{
+    width: 1100px;
+    height: 80px;
+  }
+  .Titulo h1{
+    font-size: 60px;
+  }
+
+  #nombreYApellido h2{
+    font-size: 50px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 62px;
+  }
+  #textoPresentacion{
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #imgFondo{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+  }
+  #imgFondo img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  #img1{ position: absolute;top: 0px;  left: 1020px;}
+  #img2{ position: absolute;top: 60px; left: 1050px;}
+  #img3{ position: absolute;top: 120px;left: 1010px;}
+  #img4{ position: absolute;top: 180px;left: 1040px;}
+  #img5{ position: absolute;top: 240px;left: 1020px;}
+  #img6{ position: absolute;top: 300px;left: 1030px;}
+
+  .textoEscondido{
+    width: 173px;
+    height: 28px;
+    padding-left: 10px;
+    position:absolute;
+    top: 0px;
+    left: 1080px;
+  }
+  #img1:hover{
+    display: block;
+  }
+
+
+
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  /*-----------------2DA HOJA----------------*/
+  #estudiosIzq{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+  }
+  #estudiosIzq h3{
+    margin-left: 100px;
+  }
+  #estudiosDer{
+    float: right;
+    width: 500px;
+    height: 300px;
+  }
+  #estudiosDer h3{
+    margin-left: 140px;
+  }
+  #subContenido{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #subContenido ul li{
+    margin-top: 5px;
+  }
+  #imgEstudios img{
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+  #imgEstudioFormal1 {
+    float: left;
+    margin-left: 10px;
+  }
+  #imgEstudioFormal2 {
+    float: right;
+    margin-right: 10px;
+  }
+  #imgEstudiosInformales{
+    padding-left: 30px;
+  }
+  #imgEstudiosInformales img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  #imgEstudiosInformales2 img{
+    width: 100px;;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .estudiosHiddenIzq{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 1900px;
+  }
+  .estudiosHiddenDer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  #ayudaTexto{
+    position: absolute;
+    top: 400px;
+    left: 1680px;
+    width: 600px;
+    height: 130px;
+  }
+
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  /*-----------------3RA HOJA----------------*/
+  #filaImgTecno{
+    margin-top: 150px;
+  }
+
+  .imgTecno img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 70px;
+  }
+
+   #filaGris img{
+     width: 100px;
+     height: auto;
+     float: left;
+     margin-right: 70px;
+   }
+   .css3{
+     position: absolute;
+     top: 290px;
+     left: 2900px;
+   }
+   .html5{
+     position: absolute;
+     top: 290px;
+     left: 3092px;
+   }
+   .java{
+     position: absolute;
+     top: 290px;
+     left: 3284px;
+   }
+   .js{
+     position: absolute;
+     top: 290px;
+     left: 3476px;
+   }
+   .springboot{
+     position: absolute;
+     top: 290px;
+     left: 3668px;
+   }
+   .springbootGray{
+     position: absolute;
+     top: 293px;
+     left: 3668px;
+   }
+   .database{
+     position: absolute;
+     top: 290px;
+     left: 3860px;
+   }
+
+
+   .textTecno{
+     position: absolute;
+     width: 450px;
+     height: 100px;
+     top: 480px;
+     left: 3200px;
+   }
+
+
+
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   /*-----------------4TA HOJA----------------*/
+   #filaImgEvo{
+     margin-left: 150px;
+   }
+
+   #filaImgEvo img{
+     width: auto;
+     height: 250px;
+   }
+   #imgEvo1{
+     position: absolute;
+     top: 200px;
+     left: 4450px;
+   }
+
+   #imgEvo2{
+     position: absolute;
+     top: 200px;
+     left: 4650px;
+   }
+   #imgEvo3{
+     position: absolute;
+     top: 200px;
+     left: 4830px;
+   }
+   #imgEvo4{
+     position: absolute;
+     top: 200px;
+     left: 4920px;
+   }
+   .filaEvoTexto{
+     width: 750px;
+     height: 220px;
+     position: absolute;
+     top: 290px;
+     left: 4550px;
+   }
+
+
+   .info4taHoja{
+     margin-top: 50px;
+   }
+   .left{
+     margin-left: 160px;
+     float: left;
+     width: 260px;
+   }
+   .left a{
+     color: black;
+   }
+   .middle{
+     float: left;
+     width: 260px;
+     margin-left: 100px;
+   }
+   .right{
+     float: left;
+     width: 260px;
+
+   }
+
+
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+   /*-----------------5TA HOJA----------------*/
+
+
+   #imgFondo{
+     width: 100px;
+     height: 300px;
+     position: absolute;
+     top: 250px;
+   }
+   #imgFondo img{
+     width: 50px;
+     height: 50px;
+     margin-bottom: 80px;
+   }
+   #img1{ position: absolute;top: 0px;  left: 200px;}
+   #img2{ position: absolute;top: 100px; left: 200px;}
+   #img3{ position: absolute;top: 200px;left: 200px;}
+   #img4{ position: absolute;top: 50px;left: 400px;}
+   #img5{ position: absolute;top: 150px;left: 400px;}
+   #img6{ position: absolute;top: 250px;left: 400px;}
+
+
+
+   /*--------------COSAS FIJAS----------------*/
+   /*--------------COSAS FIJAS----------------*/
+  /*--------------COSAS FIJAS----------------*/
+
+  /*IMAGENES PUNTOS FLOTANTES*/
+  #puntosFlotantes{
+    position: fixed;
+    top: 590px;
+    left: 340px;
+  }
+  #puntosFlotantes img{
+    width: 16px;
+    height: 16px;
+    margin-left: 80px;
+  }
+
+  /*------FLECHAS---------*/
+  .flechasFlotantes{
+    top: 20px;
+    width: 100px;
+    height: 600px;
+    }
+
+  #flechaDer{
+    position: fixed;
+    left: 10px;
+  }
+  #flechaIzq{
+    position: fixed;
+    left: 1280px;
+    cursor: pointer;
+  }
+  .flechasFlotantes img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #inglesEspaniol{
+    position: fixed;
+    top: 30px;
+    left: 1100px;
+  }
+
+}

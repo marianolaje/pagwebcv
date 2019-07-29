@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Mariano Laje CV</title>
+  </head>
+  <body>
+    <section id="puntosFlotantes">
+      <img src="img/dotIn.png" id="imgDot1" alt="" class="vert-move1" onclick="nextPageDot(0, 'imgDot1', 'imgDot2', 'imgDot3', 'imgDot4', 'imgDot5', 'imgDot6')">
+      <img src="img/dotOut.png" id="imgDot2" alt="" class="vert-move2" onclick="nextPageDot(1380, 'imgDot2', 'imgDot1', 'imgDot3', 'imgDot4', 'imgDot5', 'imgDot6')">
+      <img src="img/dotOut.png" id="imgDot3" alt="" class="vert-move3" onclick="nextPageDot(2760, 'imgDot3', 'imgDot2', 'imgDot1', 'imgDot4', 'imgDot5', 'imgDot6')">
+      <img src="img/dotOut.png" id="imgDot4" alt="" class="vert-move1a" onclick="nextPageDot(4140, 'imgDot4', 'imgDot2', 'imgDot3', 'imgDot1', 'imgDot5', 'imgDot6')">
+      <img src="img/dotOut.png" id="imgDot5" alt="" class="vert-move2a" onclick="nextPageDot(5520, 'imgDot5', 'imgDot2', 'imgDot3', 'imgDot4', 'imgDot1', 'imgDot6')">
+      <img src="img/dotOut.png" id="imgDot6" alt="" class="vert-move3a" onclick="nextPageDot(6900, 'imgDot6', 'imgDot2', 'imgDot3', 'imgDot4', 'imgDot5', 'imgDot1')">
+    </section>
+
+    <section>
+      <div id="flechaIzq" class="flechasFlotantes" onclick="nextPageArrow()">
+        <img src="img/flechaDer.png" alt="" class="vert-move3a">
+      </div>
+      <div id="flechaDer" class="flechasFlotantes" onclick="prevPageArrow()">
+        <img src="img/flechaIzq.png" alt="" class="vert-move2a">
+      </div>
+    </section>
+
+    <section>
+      <div id="inglesEspaniol">
+        <ul>
+          <li id="idiomaIngles" onclick="pasajeIdiomaIngles()">English</li>
+          <li id="barra">|</li>
+          <li id="idiomaEspaniol" onclick="pasajeIdiomaEspaniol()">Español</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hojas">
+      <div class="contenedor"><a name="primeraHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo">Bienvenido a mi Curriculum Vitae</h1>
+        </div>
+        <div id="fotoYo">
+          <img src="img/fotoYo.jpg" alt="">
+        </div>
+        <div id="nombreYApellido">
+          <h2 id="textNombre">Mariano Laje Arrigoni <br> Programador Jr.</h2>
+        </div>
+        <div id="textoPresentacion">
+          <h4 id="textPresentation">Vamos a cononocerme un poco mas!</h4>
+          <p id="textConsejo">Consejo! Esta es una pag web interactiva, no dejes de pasar el mouse!</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="hojas">
+      <div class="contenedor"><a name="segundaHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo2">Acá veremos un poco mas de mis estudios</h1>
+          <h2 id="textSubTitulo2">¡Cuento con 2 tipos de estudios!</h2>
+        </div>
+        <div id="subContenido">
+          <div id="estudiosIzq"  onmouseover="hiddenOffOn('imgEstudios')" onmouseout="hiddenOffOn('imgEstudios')">
+            <h3 id="textEstudioFormal">Mis estudios Formales</h3>
+            <div id="imgEstudios">
+              <img src="img/issd.png" id="imgEstudioFormal1" alt="" onmouseover="hiddenOffOn('issd')" onmouseout="hiddenOffOn('issd')">
+              <img src="img/zorrilla.png" id="imgEstudioFormal2" alt="" onmouseover="hiddenOffOn('zorrilla')" onmouseout="hiddenOffOn('zorrilla')">
+            </div>
+          </div>
+
+          <div id="estudiosDer" onmouseover="hiddenOffOn('imgEstudiosInformales')" onmouseout="hiddenOffOn('imgEstudiosInformales')">
+            <h3 id="textEstudioInformal">Y mis estudios Informales</h3>
+            <div id="imgEstudiosInformales">
+              <img src="img/educacionit.png" alt="" onmouseover="hiddenOffOn('educacionit')" onmouseout="hiddenOffOn('educacionit')">
+              <img src="img/oracle.png" alt="" onmouseover="hiddenOffOn('oracle')" onmouseout="hiddenOffOn('oracle')">
+              <img src="img/udemy.png" alt="" onmouseover="hiddenOffOn('udemy')" onmouseout="hiddenOffOn('udemy')">
+              <img src="img/utnba.jpg" alt="" onmouseover="hiddenOffOn('utnba')" onmouseout="hiddenOffOn('utnba')">
+              <img src="img/nextu.png" alt="" onmouseover="hiddenOffOn('nextu')" onmouseout="hiddenOffOn('nextu')">
+              <img src="img/cilsa.png" alt="" onmouseover="hiddenOffOn('cilsa')" onmouseout="hiddenOffOn('cilsa')">
+            </div>
+            <div id="infoCursos">
+              <div class="estudiosHiddenDer" id="issd">
+                <ul>
+                  <li id="textAnalista">Analista en Sistemas de Información</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenDer" id="zorrilla">
+                <ul>
+                  <li id="textAdmin">Técnico en Administración de Empresas</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="nextu">
+                <ul>
+                  <li id="textCourse1">Desarrollo Web en Html5 y Css3 con Bootstrap</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="oracle">
+                <ul>
+                  <li id="textCourse2a">Base de datos Oracle 11g: Fundamentos de SQL 1</li>
+                  <li id="textCourse2b">Base de datos Oracle 11g: Fundamentos de PL/SQL</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="udemy">
+                <ul>
+                  <li id="textCourse3">Mestro en Hibernate y JPA con Spring Boot en 100 pasos</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="cilsa">
+                <ul>
+                  <li id="textCourse4">Introducción a la programación de paginas web con JavaScript</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="educacionit">
+                <ul>
+                  <li id="textCourse5a">Programación Web Estándar Java, J2SE</li>
+                  <li id="textCourse5b">Programación avanzada de Java: hilos, redes, J2SE</li>
+                </ul>
+              </div>
+              <div class="estudiosHiddenIzq" id="utnba">
+                <ul>
+                  <li id="textCourse6a">Fundamentos de la programación</li>
+                  <li id="textCourse6b">Desarrollo de Pagina Web</li>
+                  <li id="textCourse6c">Desarrollo web en Html5 y Css3</li>
+                  <li id="textCourse6d">Desarrollo Web con JavaScript</li>
+                  <li id="textCourse6e">Desarrollo web en HTML 5, CSS3 y Javascript (nivel avanzado)</li>
+                  <li id="textCourse6f">Desarrollo web en Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+            <div id="ayudaTexto">
+              <h3 id="textAyuda">PASA EL MOUSE POR ACA! <br> Por izquierda o derecha </h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="hojas">
+      <div class="contenedor"><a name="terceraHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo3">Empezamos con lo interesante!</h1>
+          <h2 id="textSubTitulo3">Si te preguntaste: ¿que tecnologias maneja este chico? Estas en el lugar correcto</h2>
+        </div>
+        <div id="subContenido">
+          <div id="filaImgTecno">
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible1')" onmouseout="hiddenOffOn('visible1')">
+              <div class="css3">
+                <img src="img/css3_1.png" alt="">
+              </div>
+              <div class="css3" id="filaGris">
+                <img src="img/css3_2.png" alt="">
+              </div>
+            </div>
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible2')" onmouseout="hiddenOffOn('visible2')">
+              <div class="html5">
+                <img src="img/html5.png" alt="">
+              </div>
+              <div class="html5" id="filaGris">
+                <img src="img/html5_1.png" alt="">
+              </div>
+            </div>
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible3')" onmouseout="hiddenOffOn('visible3')">
+              <div class="java">
+                <img src="img/java.png" alt="">
+              </div>
+              <div class="java" id="filaGris">
+                <img src="img/java_1.png" alt="">
+              </div>
+            </div>
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible4')" onmouseout="hiddenOffOn('visible4')">
+              <div class="js">
+                <img src="img/js.png" alt="">
+              </div>
+              <div class="js" id="filaGris">
+                <img src="img/js_1.png" alt="">
+              </div>
+            </div>
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible5')" onmouseout="hiddenOffOn('visible5')">
+              <div class="springboot">
+                <img src="img/springboot.png" alt="">
+              </div>
+              <div class="springbootGray" id="filaGris">
+                <img src="img/springboot_1.png" alt="">
+              </div>
+            </div>
+            <div class="imgTecno" onmouseover="hiddenOffOn('visible6')" onmouseout="hiddenOffOn('visible6')">
+              <div class="database">
+                <img src="img/db.png" alt="">
+              </div>
+              <div class="database" id="filaGris">
+                <img src="img/db_1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="textTecno" id="visible1">
+              <h5>CSS 3</h5>
+              <p id="textTecno1">Manejo muy bueno, con incorporación de Bootstrap como framework de trabajo</p>
+            </div>
+            <div class="textTecno" id="visible2">
+              <h5>HTML 5</h5>
+              <p id="textTecno2">Maquetación excelente, experiencia realizando paginas por gusto propio</p>
+            </div>
+            <div class="textTecno" id="visible3">
+              <h5>JAVA</h5>
+              <p id="textTecno3">Buen manejo. Con experiencia laboral comprobable en el lenguaje</p>
+            </div>
+            <div class="textTecno" id="visible4">
+              <h5>JavaScript</h5>
+              <p id="textTecno4">Incorporando conocimientos constantemente</p>
+            </div>
+            <div class="textTecno" id="visible5">
+              <h5>SpringBoot</h5>
+              <p id="textTecno5">Buen manejo. Con experiencia laboral comprobable en la herramienta</p>
+            </div>
+            <div class="textTecno" id="visible6">
+              <h5>SQL DataBase</h5>
+              <p id="textTecno6">Muy buen manejo, con experiencia laboral comprobable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="hojas">
+      <div class="contenedor"><a name="cuartaHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo4">Experiencia Laboral</h1>
+        </div>
+        <div id="filaImgEvo">
+          <div class="imgEvo" id="imgEvo1" onmouseover="hiddenOffOn2('EvoTexto1', 'imgEvo2', 'imgEvo3', 'imgEvo4', 'imgEvo1', 150, 4300, 700)">
+            <img src="img/evolucionNiño.png" alt="">
+          </div>
+          <div class="imgEvo" id="imgEvo2" onmouseover="hiddenOffOn2('EvoTexto2', 'imgEvo1', 'imgEvo3', 'imgEvo4', 'imgEvo2', 300, 4350, 700)" >
+            <img src="img/evolucionAdolescente.png" alt="">
+          </div>
+          <div class="imgEvo" id="imgEvo3" onmouseover="hiddenOffOn2('EvoTexto3', 'imgEvo2', 'imgEvo1', 'imgEvo4', 'imgEvo3', 440, 4390, 1000)" >
+            <img src="img/evolucionAdministrador.png" alt="">
+          </div>
+          <div class="imgEvo" id="imgEvo4" onmouseover="hiddenOffOn2('EvoTexto4', 'imgEvo2', 'imgEvo3', 'imgEvo1', 'imgEvo4', 640, 4280, 1200)" >
+            <img src="img/evolucionProgramador.png" alt="">
+          </div>
+          <div>
+            <div id="EvoTexto1" class="filaEvoTexto">
+              <h4 id="textEvo1">Primeros pasos</h4>
+              <p id="subtextEvo1">Luego de finalizar el secundario en el Republica de Italia, a los 18 años estaba trabajando como Acomodador,
+                para el Orfeo, y a su vez como Vendedor para la casa de ropa Kevingston, cubriendo las vacaciones de los
+                vendedores fijos.</p>
+            </div>
+            <div id="EvoTexto2" class="filaEvoTexto">
+              <h4 id="textEvo2">Experiencia como vendedor</h4>
+              <p id="subtextEvo2">Luego continué con mis dotes de vendedor (mientras seguía en el Orfeo) en la casa de ropa Wrangler, por un año,
+                viendose finalizado cuando la Gerente de la casa de ropa Panther me ofreció trabajo de Vendedor para su local,
+                siendo más horas diarias, y mejor pago.</p>
+            </div>
+            <div id="EvoTexto3" class="filaEvoTexto">
+              <h4 id="textEvo3">Experiencia como Administrador</h4>
+              <p id="subtextEvo3">En la tecnicatura dictada por Instituto Superior Zorrilla Terciario, donde
+              en 2do año por alto promedio, se me recomendó desde el instituto, para una pasantía en la empresa constructora
+              Ingemax S.A. por 4 meses, para ser el administrador de la obra del parque del Kempes. <br>
+              Luego estuve en otra pasantía administrativa para la empresa de turismo Bentancourt S.A, por 6 meses, y por último
+              trabajando en la empresa constructora Corfur S.A. como fijo, por un año y medio. En todas desempeñaba un rol administrativo
+              donde era el encargado del control de los gastos, carga de datos al sistema, concileacion de cuentas, entre otras multiples tareas.</p>
+            </div>
+            <div id="EvoTexto4" class="filaEvoTexto">
+              <h4 id="textEvo4">Experiencia como Programador</h4>
+              <p id="subtextEvo4">Permitido por mis estudios en Analista en Sistemas, y por los multiples cursos realizados, actualmente estoy
+              trabajando en la empresa Servicios y Consultoría S.A., que la misma trabaja para Rentas de la Provincia, donde estoy
+              efectuando un papel de Programador Java Jr. desde el 20/05/2019</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="hojas">
+      <div class="contenedor"><a name="quintaHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo5">Otra informacion de interes</h1>
+        </div>
+        <div class="info4taHoja">
+          <div class="left">
+            <h5 id="textIngles">Ingles</h5>
+            <p id="textIngles2">Inglés: Avanzado. EF SET English Certificate 60/100 (B2 upper intermediate) Listening Section 56/100 (B2 upper
+              intermediate) Reading Section 64/100 (C1 advanced).</p>
+            <h5>GitHub</h5>
+            <a href="https://github.com/marianolaje">https://github.com/marianolaje</a>
+            <br><br>
+            <h5>Email</h5>
+            <a href="https://outlook.com/">marianolaje@outlook.com</a>
+          </div>
+          <div class="middle">
+            <h5 id="textBirth">Fecha de Nacimiento</h5>
+            <p id="textBirth2">15 de Marzo de 1993</p>
+            <h5 id="textEstadoCivil">Estado Civil</h5>
+            <p id="textEstadoCivil2">Soltero</p>
+            <h5 id="textNacionalidad">Nacionalidad</h5>
+            <p id="textNacionalidad2">Argentina - Italiana</p>
+          </div>
+          <div class="right">
+            <h3 id="textVideoJuegos">Destrezas en Desarrollo de Videojuegos</h3>
+            <h5>ZBrush</h5>
+            <p id="textVideoJuegos1">Modelado 3D: Nivel Intermedio</p>
+            <h5>Blender</h5>
+            <p id="textVideoJuegos2">Modelado 3D: Nivel Intermedio</p>
+            <p id="textVideoJuegos3">Texturizado: Nivel Intermedio</p>
+            <p id="textVideoJuegos4">Renderizado: Nivel Básico</p>
+            <p id="textVideoJuegos5">Rigging y Animación: Nivel Básico</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="hojas">
+      <div class="contenedor"><a name="sextaHoja"></a>
+        <div class="Titulo">
+          <h1 id="textTitulo6">Contactame</h1>
+        </div>
+        <div class="wrap-contact100">
+    			<form action="formulario.php" method="POST" class="contact100-form validate-form flex-sb flex-w">
+
+    				<div class="wrap-input100 validate-input aaa" data-validate = "El campo NOMBRE es requerido">
+    					<input id="formTitulo" class="input100" type="text" name="nombre" placeholder="Nombre" required>
+    					<span class="focus-input100"></span>
+    				</div>
+
+    				<div class="wrap-input100 validate-input aaa" data-validate = "El campo EMAIL es requerido">
+    					<input class="input100" type="text" name="mail" placeholder="Email" required>
+    					<span class="focus-input100"></span>
+    				</div>
+
+    				<div class="wrap-input100 validate-input" data-validate = "El campo MENSAJE es requerido">
+    					<textarea id="formTexto" class="input100" name="mensaje" placeholder="Escribime un mensaje" required></textarea>
+    					<span class="focus-input100"></span>
+    				</div>
+
+    				<div class="container-contact100-form-btn">
+    					<input id="formBoton" class="contact100-form-btn" type="submit" value="Enviar">
+    				</div>
+    			</form>
+    		</div>
+      </div>
+    </section>
+
+
+  </body>
+</html>
